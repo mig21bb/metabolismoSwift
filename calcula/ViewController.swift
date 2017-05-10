@@ -34,6 +34,8 @@ class ViewController: UIViewController {
             
             vista2.texto="Esto viene desde el controlador 1"
             
+            vista2.m=m
+            
         }
     }
 

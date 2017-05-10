@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController2: UIViewController {
     
-    var texto:String=""
+    var texto:String?
     var m:Metabolismo?
 
     
@@ -18,7 +18,7 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelView2.text=m?.nombre
         // Do any additional setup after loading the view.
     }
 
